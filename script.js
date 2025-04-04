@@ -1,0 +1,1 @@
+const alternaContraste = document.getElementById('alterna-contraste')

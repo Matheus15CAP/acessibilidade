@@ -27,3 +27,11 @@
 .alto-contraste #Gorillaz {
     background: none;
 }
+
+.alto-contraste #galeria {
+    background-color: var(--alto-contraste-fundo);
+}
+
+.alto-contraste .fundo-galeria {
+    background: none;
+}
