@@ -23,3 +23,7 @@
     background-color: var(--alto-contraste-link);
     color: var(--alto-contraste-fundo)
 }
+
+.alto-contraste #Gorillaz {
+    background: none;
+}
