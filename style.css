@@ -80,7 +80,6 @@ section {
     margin-top: 3rem;
     margin-bottom: 3rem;
     background-size: 180px 180px;
-    /* Ajuste o tamanho conforme necessário */
 }
 
 #gorillaz .container {
@@ -89,7 +88,6 @@ section {
     justify-content: center;
     position: relative;
     z-index: 1;
-    /* Garante que o conteúdo fica acima das imagens do background */
 }
 
 
