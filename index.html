@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gorillaz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+<nav>
+    <h1 class="logo">Gorillaz</h1>
+    <ul class="navlist">
+        <li><a href="#start">Início</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
+    </header>
+
+    <section id="acessibilidade" class="acessibilidade">
+        <button id="btn-acessibilidade">Acessibilidade</button>
+        <div id="botoes-acessibilidade" class="botoes-acessibilidade" style="display: none;">
+            <button id="btn-aumentar">Aumentar Fonte</button>
+            <button id="btn-diminuir">Diminuir Fonte</button>
+            <button id="btn-mudar-cor">Mudar Cor do Texto</button>
+        </div>
+    </section>
+
+    <main>
+        <section id="start">
+            <div class="starimg">
+
+<h1 class="titstart">Boas-vindas a</h1>
+<img src="https://img.goodfon.com/original/3840x2400/d/7a/gorillaz-english-virtual-band-damon-alban-jamie-hewlett-trip.jpg" class="imgstart" alt="a imagem apresenta os quatro membros da banda Gorillaz, com noodle e russel de braços cruzados, e 2d e murdoc coms os braços para baixo">
+<h2 class="txtstart">GORILLAZ</h2>
+<div class="umbotao">
+<a href="#Gorillaz" class="botao1">QUERO CONHECER!</a>
+</div>
+</div>
+        </section>
+        <section id="Gorillaz">
+<img src="Gorillaz1.jpg" alt="apresenta um poster com os membros da banda Gorillaz, feito por um artista do deviantart chamado gamerowse" class="poster">
+<h2 class="titgor">Gorillaz</h2>
+<p class="exp">Gorillaz é uma banda virtual britânica formada em 1998 pelo vocalista Damon Albarn, líder do Blur, 
+    e pelo cartunista Jamie Hewlett, co-criador da HQ Tank Girl. 
+    A banda é composta por quatro personagens animados: 2-D, Murdoc, Noodle e Russel. 
+    As músicas do grupo resultam de colaborações com diversos músicos, sendo Damon Albarn o único membro permanente. 
+    Seu estilo musical é geralmente associado ao rock alternativo, mas com forte influência do britpop, dub e eletrônica.
+    <p class="fonte">Fonte: Wikipedia</p>
+</p>
+
+        </section>
+        <h1 class="gltit">Galeria</h1>
+        <section id="galeria" class="gallery">
+            <div>
+            <img src="gorillaz-2d-miordoka-nikkalsa-murdoc-niccals-nudl-noodle-r-3.jpg" alt="">
+            <img src="studigorillaz.png" alt="">
+            <img src="noodle.jpg" alt="">
+            <img src="2d.png" alt="">
+        </div>
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
+    <script src="script.js"></script>
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form action="enviar.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@font-face {
+    font-family: Golliraz;
+    src: url(fontes/gorillaz_1.ttf) format('truetype');
+}
+
+
+body {
+    background-color: black;
+    max-width: 100%;
+    max-width: 100%;
+}
+
+a {
+    color: #8616b9;
+    text-decoration: none;
+}
+
+
+
+.logo {
+    height: 100px;
+    width: 100px;
+    letter-spacing: 4px;
+    margin-left: -240px;
+    font-family: Golliraz;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 16vh;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+}
+
+.navlist li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+    margin-right: 32px;
+    transition: 0.5s;
+}
+
+.navlist li:hover {
+    scale: 110%;
+}
+
+.imgstart {
+    height: 600px;
+    width: 970px;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.startimg {
+    display: inline-block;
+  position: relative;
+}
+
+.titstart {
+    position: absolute;
+    top: 250px;
+    left: 470px;
+    right: 20px;
+    color: white;
+    font-family: Golliraz;
+}
+
+.txtstart {
+    position: absolute;
+    top: 300px;
+    left: 470px;
+    font-size: 55px;
+    color: rgb(74, 14, 80);
+    font-family: Golliraz;
+}
+
+.botao1 {
+    position: absolute;
+    top: 730px;
+    left: 470px;
+    font-size: 30px;
+    color: rgb(252, 252, 252);
+    background-color: rgb(133, 28, 46);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding: 15px;
+    transition: 0.5s;
+}
+
+.botao1:hover {
+scale: 110%;
+}
+
+.poster {
+    height: 670px;
+    width: 500px;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.titgor {
+    position: absolute;
+    top: 950px;
+    left: 1050px;
+    right: 20px;
+    color: rgb(93, 61, 150);
+    font-family: Golliraz;
+}
+
+.exp {
+    position: absolute;
+    top: 1000px;
+    left: 1050px;
+    right: 20px;
+    color: rgb(175, 157, 206);
+    margin-right: 200px;
+}
+
+.fonte {
+    position: relative;
+    top: -125px;
+    left: 1050px;
+    right: 20px;
+    color: rgb(128, 72, 224);
+    margin-right: 200px;
+}
+
+.gallery {
+    left: 500px;
+    width: 36rem;
+    height: 23rem;
+    position: relative;
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    bottom: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    left: 0;
+    flex-shrink: 0;
+    object-fit: cover;
+    scroll-behavior: smooth;
+}
+
+.gltit {
+    text-align: center;
+    color: #8616b9;
+    font-family: golliraz;
+}
+
+#contato {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+#contato h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contato label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contato input, #contato textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contato button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contato button:hover {
+    background-color: #45a049;
+}
+
+.acessibilidade {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+}
+
+#btn-acessibilidade {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#botoes-acessibilidade {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#botoes-acessibilidade button {
+    margin: 5px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-aumentar {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#btn-diminuir {
+    background-color: #FF5733;
+    color: white;
+}
+
+#btn-mudar-cor {
+    background-color: #3333FF;
+    color: white;
+}
