@@ -130,7 +130,7 @@ scale: 110%;
 }
 
 .fonte {
-    position: relative;
+    position: absolute;
     margin-top: 50%;
     top: -130px;
     left: 1050px;
