@@ -5,7 +5,7 @@ document.getElementById('btn-acessibilidade').addEventListener('click', function
 
 let fontSize = 20; 
 const fontSizeMin = 16; 
-const fontSizeMax = 26; 
+const fontSizeMax = 28; 
 
 
 function atualizarFonte() {
