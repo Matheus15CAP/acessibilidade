@@ -104,8 +104,8 @@ scale: 110%;
 }
 
 .poster {
-    height: 775px;
-    width: 605px;
+    height: 780px;
+    width: 610px;
     margin-left: 25%;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -132,7 +132,7 @@ scale: 110%;
 .fonte {
     position: relative;
     margin-top: 35px;
-    top: -150px;
+    top: -155px;
     left: 1050px;
     right: 20px;
     color: rgb(128, 72, 224);
