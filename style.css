@@ -132,7 +132,7 @@ scale: 110%;
 .fonte {
     position: absolute;
     margin-top: 50%;
-    top: -130px;
+    top: -130%;
     left: 1050px;
     right: 20px;
     color: rgb(128, 72, 224);
